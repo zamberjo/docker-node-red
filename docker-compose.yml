@@ -52,5 +52,5 @@ services:
     #         timeout: 10s
     #         retries: 7
 
-# volumes:
-#     mqtt-data:
+volumes:
+    node-data:

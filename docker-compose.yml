@@ -5,9 +5,9 @@ services:
         build:
             context: ./node-red
         restart: unless-stopped
-        depends_on:
-            mongodb:
-                condition: service_healthy
+        # depends_on:
+        #     mongodb:
+        #         condition: service_healthy
         #     mqtt:
         #         condition: service_healthy
         ports:

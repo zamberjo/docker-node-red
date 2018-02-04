@@ -15,6 +15,7 @@ services:
         volumes:
             - ./node-red/flows:/data/lib/flows:z
             - ./node-red/settings.js:/data/settings.js
+            - node-data:/data
 
     # mongodb:
     #     build:

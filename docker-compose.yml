@@ -13,7 +13,8 @@ services:
         ports:
             - "1880:1880"
         volumes:
-            - ./node-red/flows:/data/lib/flows
+            - ./node-red/flows:/data/lib/flows:z
+            - ./node-red/settings.js:/data/settings.js
 
     # mongodb:
     #     build:

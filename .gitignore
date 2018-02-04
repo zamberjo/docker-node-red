@@ -1,4 +1,4 @@
-data/
+node-red/settings.js
 
 *.sublime-project
 *.sublime-workspace

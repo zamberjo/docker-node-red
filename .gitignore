@@ -1,4 +1,6 @@
-node-red/settings.js
+!.gitignore
+
+.env
 
 *.sublime-project
 *.sublime-workspace

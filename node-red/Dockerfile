@@ -1,4 +1,5 @@
-FROM nodered/node-red-docker:rpi
+ARG TAG=rpi
+FROM nodered/node-red-docker:${TAG}
 
 RUN npm install node-red-contrib-owfs
 RUN npm install node-red-contrib-mqtt-broker

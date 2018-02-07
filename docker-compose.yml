@@ -4,6 +4,8 @@ services:
     node-red:
         build:
             context: ./node-red
+            args:
+                - TAG=${NODE_TAG}
         restart: unless-stopped
         # depends_on:
         #     mongodb:

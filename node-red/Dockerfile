@@ -12,8 +12,11 @@ USER root
 #     make check && \
 #     make install && cd ..
 
-RUN apt-get update && apt-get install -y libavahi-compat-libdnssd-dev
-RUN apt-get update && apt-get install -y gcc make build-essential
+RUN apt-get update && apt-get install -y
+RUN apt-get update && apt-get install -y gcc \
+    make \
+    build-essential \
+    libavahi-compat-libdnssd-dev
 
 USER node-red
 # RUN npm update

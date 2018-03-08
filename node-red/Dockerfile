@@ -24,8 +24,8 @@ RUN npm install node-red-dashboard
 RUN npm install node-red-contrib-ds18b20-sensor
 
 # TEST
-RUN npm install node-red-contrib-homekit
+# RUN npm install node-red-contrib-homekit
 RUN npm install node-red-contrib-pythonshell
-RUN npm install node-red-contrib-google-home-notify
+# RUN npm install node-red-contrib-google-home-notify
 # RUN npm install --unsafe-perm node-dht-sensor && \
 #     npm install --unsafe-perm node-red-contrib-dht-sensor
